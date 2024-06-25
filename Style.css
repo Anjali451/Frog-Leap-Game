@@ -9,6 +9,10 @@ body {
     background-size: cover;
 }
 
+.container{
+    background: transparent;
+}
+
 .game-container {
     text-align: center;
 }
