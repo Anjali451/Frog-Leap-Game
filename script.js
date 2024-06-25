@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             div.appendChild(stoneImg);
 
             const img = document.createElement('img');
-            img.src = 'stone.jpg';
+            img.src = 'stone.png';
             if (pos === 'G') {
                 const img = document.createElement('img');
                 img.src = 'g.png';
