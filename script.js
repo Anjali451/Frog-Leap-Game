@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             div.classList.add('position');
 
             const stoneImg = document.createElement('img');
-            stoneImg.src = 'stone.jpg';
+            stoneImg.src = 'stone.png';
             stoneImg.classList.add('stone');
             div.appendChild(stoneImg);
 
