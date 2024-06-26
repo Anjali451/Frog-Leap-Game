@@ -9,10 +9,6 @@ body {
     background-size: cover;
 }
 
-.container{
-    background: transparent;
-}
-
 .game-container {
     text-align: center;
 }
@@ -49,12 +45,11 @@ body {
     mix-blend-mode: multiply;
 }
 
-.position .frog {
+.position img {
     position: absolute;
     width: 50px;
     height: auto;
     z-index: 2;
-    mix-blend-mode: multiply;
 }
 
 
@@ -78,31 +73,40 @@ body {
 
 @media only screen and (min-width: 320px){
     .position .stone {
-        width: 40px;
-        margin-top: 2rem;
+        width: 4rem;
+        margin-top: 3rem;
+        padding: 9px;
     }
     
+    .position img{
+        width: 3rem;
+        height: 5rem;
+        padding: 9px;
+    }
 }
 
 @media only screen and (min-width: 360px){
-    .position .frog{
-        width: 60px;
-        height: auto;
+    .position img{
+        width: 3rem;
+        height: 5rem;
+        padding: 9px;
     }
     .position .stone {
-        width: 50px;
-        margin-top: 2rem;
+        width: 60px;
+        margin-top: 4rem;
     }
 }
 
 @media only screen and (min-width: 768px){
     .position .stone {
-        width: 55px;
+        width: 7rem;
         margin-top: 4rem;
     }
     
-    .position .frog{
-        width: 60px;
+    .position img{
+        width: 6rem;
+        height: 6rem;
+        padding: 10px;
     }
 }
 
