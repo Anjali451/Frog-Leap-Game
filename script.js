@@ -17,9 +17,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             stoneImg.src = 'stone.png';
             stoneImg.classList.add('stone');
             div.appendChild(stoneImg);
-
-            const img = document.createElement('img');
-            img.src = 'stone.png';
+            
             if (pos === 'G') {
                 const img = document.createElement('img');
                 img.src = 'g.png';
@@ -48,9 +46,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     messageContainer.textContent = 'You Lose';
                     endGame();
                 }
-            } else {
-                messageContainer.textContent = 'Invalid move';
-            }
         }
     }
 
@@ -132,4 +127,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     displayGame();
-});
+}});
