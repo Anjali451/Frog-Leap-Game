@@ -17,7 +17,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
             stoneImg.src = 'stone.png';
             stoneImg.classList.add('stone');
             div.appendChild(stoneImg);
+
             
+            const img = document.createElement('img');
+            img.src = 'stone.jpg';
             if (pos === 'G') {
                 const img = document.createElement('img');
                 img.src = 'g.png';
@@ -46,6 +49,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     messageContainer.textContent = 'You Lose';
                     endGame();
                 }
+            } 
         }
     }
 
@@ -127,4 +131,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     displayGame();
-}});
+});
